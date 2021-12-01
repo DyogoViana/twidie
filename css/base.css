@@ -1,7 +1,54 @@
+/*
+	################
+	Paleta de cores:
+	################
+
+	Font - #009999
+	p - #868686
+	background - #F3F3F3
+
+*/
+
+
 html {
 	font-family: 'Signika', sans-serif;
 }
+
+nav, footer {
+	background: linear-gradient(231deg, rgba(29,92,236,1) 0%, rgba(21,145,166,1) 65%, rgba(22,151,158,1) 100%);
+}
+
+
+h2 {
+	font-size: 2rem;
+	color: #009999;
+	border-bottom: 2px solid #009999;
+	width: fit-content;
+	margin-left: auto;
+   margin-right: auto;
+}
+
+h3 {
+	font-size: 1.5rem;
+	color: #009999;
+}
+
 p {
 	font-size: 1rem;
 	text-align: justify;
+	color: #868686;
+}
+
+blockquote {
+	color: #1D1D1B;
+	border-left: none;
+}
+
+.encontre_seu_talento {
+	padding: 5em 0;
+	background-color: #F3F3F3;
+}
+
+.btn_criar_conta {
+	background-color: #009999;
 }
