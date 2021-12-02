@@ -20,7 +20,7 @@ nav, footer {
 
 
 h2 {
-	font-size: 2rem;
+	font-size: 2.2rem;
 	color: #009999;
 	border-bottom: 2px solid #009999;
 	width: fit-content;
@@ -34,14 +34,17 @@ h3 {
 }
 
 p {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	text-align: justify;
 	color: #868686;
 }
 
-blockquote {
-	color: #1D1D1B;
-	border-left: none;
+legend {
+	color: tomato;
+}
+
+.btn_criar_conta {
+	background-color: #009999;
 }
 
 .encontre_seu_talento {
@@ -49,6 +52,15 @@ blockquote {
 	background-color: #F3F3F3;
 }
 
-.btn_criar_conta {
-	background-color: #009999;
+.institucional {
+	padding: 3em 0;
+}
+
+.institucional p {
+	padding-right: 3em;
+}
+
+.institucional img {
+	border-radius: 1em;
+	padding-top: 2em;
 }
