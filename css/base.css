@@ -14,8 +14,8 @@ html {
 	font-family: 'Signika', sans-serif;
 }
 
-nav, footer {
-	background: linear-gradient(231deg, rgba(29,92,236,1) 0%, rgba(21,145,166,1) 65%, rgba(22,151,158,1) 100%);
+nav, footer, .institucional {
+	background: linear-gradient(214deg, rgba(29,92,236,1) 0%, rgba(21,145,166,1) 77%, rgba(22,151,158,1) 100%);
 }
 
 
@@ -30,21 +30,26 @@ h2 {
 
 h3 {
 	font-size: 1.5rem;
+	font-weight: lighter;
 	color: #009999;
 }
 
 p {
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	text-align: justify;
 	color: #868686;
 }
 
 legend {
-	color: tomato;
+	color: #6F6F6F;
+	font-weight: bold;
+	position: relative;
+	bottom: 1em;
 }
 
 .btn_criar_conta {
-	background-color: #009999;
+	background-color: #F3F3F3;
+	color: #009999 !important;
 }
 
 .encontre_seu_talento {
@@ -52,11 +57,31 @@ legend {
 	background-color: #F3F3F3;
 }
 
+
 .institucional {
 	padding: 3em 0;
+	background-image: url("../img/img_section/section_institucional__background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.institucional p {
+.institucional h2, h3, p {
+	color: #FFFDFD;
+}
+
+
+.institucional h2 {
+	border-bottom: 2px solid #FFFDFD;
+}
+
+.institucional h3 {
+	font-size: 1.5em;
+	font-weight: bolder;
+	padding-bottom: 2em;
+}
+
+.institucional, .encontre_seu_talento p {
 	padding-right: 3em;
 }
 
