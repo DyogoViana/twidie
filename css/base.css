@@ -14,10 +14,14 @@ html {
 	font-family: 'Signika', sans-serif;
 }
 
-nav, footer, .institucional {
-	background: linear-gradient(214deg, rgba(29,92,236,1) 0%, rgba(21,145,166,1) 77%, rgba(22,151,158,1) 100%);
+nav, footer{
+	background: rgb(29,92,236);
+	background: linear-gradient(356deg, rgba(29,92,236,1) 0%, rgba(21,145,166,1) 77%, rgba(22,151,158,1) 100%);
 }
 
+main img {
+	width: 100vw;
+}
 
 h2 {
 	font-size: 2.2rem;
@@ -47,7 +51,7 @@ legend {
 	bottom: 1em;
 }
 
-.btn_criar_conta {
+.btn_criar_conta a {
 	background-color: #F3F3F3;
 	color: #009999 !important;
 }
@@ -57,8 +61,7 @@ legend {
 	background-color: #F3F3F3;
 }
 
-
-.institucional {
+.institucional-img {
 	padding: 3em 0;
 	background-image: url("../img/img_section/section_institucional__background.png");
 	background-position: center;
@@ -66,12 +69,15 @@ legend {
 	background-size: cover;
 }
 
-.institucional h2, h3, p {
-	color: #FFFDFD;
-}
-
+/* .logo_nav {
+	background-image: url("../img/logos/logo-Twidie.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+} */
 
 .institucional h2 {
+	color: #FFFDFD;
 	border-bottom: 2px solid #FFFDFD;
 }
 
@@ -79,13 +85,40 @@ legend {
 	font-size: 1.5em;
 	font-weight: bolder;
 	padding-bottom: 2em;
+	color: #FFFDFD;
+}
+
+.institucional p {
+	color: #FFFDFD;
 }
 
 .institucional, .encontre_seu_talento p {
 	padding-right: 3em;
 }
 
-.institucional img {
-	border-radius: 1em;
-	padding-top: 2em;
+.media h2 {
+	margin-top: 3em;
+	margin-bottom: 3em;
 }
+
+.faq {
+	color: #009999;
+}
+
+.collapsible-header {
+	font-size: 1.5em;
+}
+
+ .icone-faq {
+	display: flex;
+	height: fit-content;
+	width: 50%;
+	justify-content: right;
+	align-content: flex-end;
+	background-color: green;
+}
+
+section .input-field {
+ 	background-color: #F8F8F8;
+}
+
