@@ -1,6 +1,7 @@
 // Initialization Materialize JS.
 
-// Carousel
+
+// Main - Carousel
 document.addEventListener('DOMContentLoaded', function() {
 	let slider = document.querySelectorAll('.carousel');
 	M.Carousel.init(slider, {
@@ -8,6 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
 		indicators: true,
 	});
 });
+
+
 
 // FAQ - Perguntas Frequentes.
 document.addEventListener('DOMContentLoaded', function () {
