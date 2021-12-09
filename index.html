@@ -8,10 +8,11 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Compiled and minified CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 	<link rel="stylesheet" href="css/base.css">
@@ -24,22 +25,22 @@
 
 <body>
 	<header>
-		 <nav>
+		<nav>
 			<div class="nav-wrapper container">
-			  <a href="#!" class="brand-logo">Twidie</a>
-			  <ul class="right hide-on-med-and-down">
-				  <li class="search-icon"><a href=""><i class="material-icons left">search</i></a></li>
-				  <li class="label-icon search-bar">
+				<a href="#!" class="brand-logo">Twidie</a>
+				<ul class="right hide-on-med-and-down">
+					<li class="search-icon"><a href=""><i class="material-icons left">search</i></a></li>
+					<li class="label-icon search-bar">
 						<input id="search" type="search" required>
 						<label for="search"></label>
-					<i class="material-icons">close</i>
-				</li>
-				 <li><a href="sass.html">Sobre a Twidie</a></li>
-				 <li class="btn_criar_conta"><a href="badges.html">Criar uma nova conta</a></li>
-				 <li><a href="mobile.html"><i class="material-icons">dehaze</i></a></li>
-			  </ul>
+						<i class="material-icons">close</i>
+					</li>
+					<li><a href="sass.html">Sobre a Twidie</a></li>
+					<li class="btn_criar_conta"><a href="badges.html">Criar uma nova conta</a></li>
+					<li><a href="mobile.html"><i class="material-icons">dehaze</i></a></li>
+				</ul>
 			</div>
-		 </nav>
+		</nav>
 
 		<ul class="sidenav" id="mobile-demo">
 			<li><a href="sass.html">Sobre a Twidie</a></li>
@@ -49,7 +50,8 @@
 
 	<main class="carousel carousel-slider" id="carouselSlider">
 		<a href="#!" class="carousel-item"><img src="img/slide/o_que_e_a_twidie.png" alt="O que é a Twidie."></a>
-		<a href="#!" class="carousel-item"><img src="img/slide/vantagens_da_plataforma.png" alt="Vantagens da Plataforma."></a>
+		<a href="#!" class="carousel-item"><img src="img/slide/vantagens_da_plataforma.png"
+				alt="Vantagens da Plataforma."></a>
 		<a href="#!" class="carousel-item"><img src="img/slide/nossa_comunidade.png" alt="Nossa Comunidade."></a>
 	</main>
 
@@ -60,8 +62,7 @@
 				<h2>Encontre seu talento</h2>
 				<div class="linha-h2"></div>
 				<div class="section">
-					<img class="responsive-img col l5" src="img/img_section/agencia.png"
-						alt="Imagem referente às agências.">
+					<img class="responsive-img col l5" src="img/img_section/agencia.png" alt="Imagem referente às agências.">
 
 					<div class="col l7">
 						<h3>AGÊNCIAS - (PJ)</h3>
@@ -204,7 +205,7 @@
 					<div class="collapsible-header">
 						<i class="material-icons">add</i>
 						&nbsp; &nbsp; It has survived not only five centuries
-						</div>
+					</div>
 					<div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
 				</li>
 			</ul>
@@ -231,13 +232,8 @@
 	<footer class="page-footer">
 		<div class="container">
 			<div class="row">
-				<div class="col l6 s12">
-					<h3 class="white-text">Footer Content</h3>
-					<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer
-						content.</p>
-				</div>
-				<div class="col l4 offset-l2 s12">
-					<h3 class="white-text">Links</h3>
+				<div class="col l12 offset-l2 s12">
+					<img class="responsive-img logo-footer" src="img/logos/logo-Twidie.png">
 					<ul>
 						<li><a href="#!">Perguntas frequentes</a></li>
 						<li><a href="#!">Carreiras</a></li>
@@ -253,17 +249,39 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-copyright">
-			<div class="container">
-				<div class="left">© TWIDIE.IO</div>
-				<div class="center">
-					<a class="" href="#!">Privacy And Cookie Notice</a>
-					<a>|</a>
-					<a class="" href="#!">General Terms And Conditions</a>
-				</div>
 
-				<div class="right">redes sociais</div>
+		<div class="footer-copyright white">
+			<div class="container">
+				<div class="row">
+					<div class="col l2"><b>© TWIDIE.IO</b></div>
+					<div class="col l7 center">
+						<a href="#!">Privacy And Cookie Notice</a>
+						<a>|</a>
+						<a href="#!">General Terms And Conditions</a>
+					</div>
+
+					<div class="col l3 social-media">
+						<ul class="social-media__list">
+							<li>
+								<a href="https://www.facebook.com/twidieglobal">
+									<i class="fa fa-facebook"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/twidieglobal/">
+									<i class="fa fa-linkedin"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://twitter.com/twidieglobal">
+									<i class="fa fa-twitter"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div>
+
 		</div>
 	</footer>
 

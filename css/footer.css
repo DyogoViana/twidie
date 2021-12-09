@@ -1,3 +1,7 @@
+.logo-footer {
+	width: 7em;
+}
+
 footer div ul li a {
 	color: #ececec;
 }
@@ -6,11 +10,44 @@ footer div ul li a:hover {
 	color: #F77825;
 }
 
-.footer-copyright div a {
-	color: #FFFDFD;
+.footer-copyright {
+	color: #009999;
+}
+
+.footer-copyright div a, b {
+	color: #009999;
 	margin-left: 2em;
 }
 
 .footer-copyright div a:hover {
-	color: #F77825;
+	color: rgb(29,92,236);
 }
+
+
+/* Rede Social */
+.social-media__list {
+	margin-top: -.2em;
+	position: relative;
+}
+
+.social-media__list li {
+	font-size: 1.3em;
+	color: #F3F3F3;
+	display: inline-block;
+	width: min-content;
+	height: min-content;
+	cursor: pointer;
+	transition: ease .3s;
+ }
+
+ .social-media__list li a:hover {
+	color: rgb(29,92,236);
+ }
+
+ .social-media__list:hover > li {
+	opacity: 0.5;
+}
+
+.social-media__list:hover > li:hover {
+	opacity: 1;
+ }
