@@ -1,11 +1,21 @@
+/* Header */
+
+
+header nav .logo-nav {
+	height: 8em;
+	position: relative;
+	bottom: 2.2em;
+}
+
 .btn_criar_conta a {
 	background-color: #F3F3F3;
 	color: #009999 !important;
 }
 
 .btn_criar_conta a:hover {
-	color: #F3F3F3!important;
-	background: linear-gradient(356deg, rgba(29,92,236,1) 0%, rgba(21,145,166,1) 77%, rgba(22,151,158,1) 100%);
+	color: #009999!important;
+	background-color: #fff;
+	/* background: linear-gradient(356deg, rgba(29,92,236,1) 0%, rgba(21,145,166,1) 77%, rgba(22,151,158,1) 100%); */
 }
 
 .navbar-material .nav-wrapper .brand-logo img {
@@ -13,18 +23,26 @@
 }
 
 .search-bar {
-	margin: 0 1em .5em 0;
-	height: 3em;
 	width: 20em;
-	border-radius: 10px;
 	background-color: #ffff;
 }
 
 .search-icon {
-	border-radius: 10px 0 0  10px;
 	background-color: #ffff;
 }
 
 .search-icon i {
-	color: tomato;
+	color: #868686;
+}
+
+.search-icon i:hover {
+	color: #009999;
+}
+
+.label-icon{
+	color: #1a237e !important;
+}
+
+.label-icon.active {
+	color: #b71c1c !important;
 }

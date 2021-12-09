@@ -20,7 +20,7 @@ nav, footer{
 }
 
 nav li {
-	margin: 0 1em;
+	padding: 0 2em;
 }
 
 h2 {
@@ -61,4 +61,8 @@ legend {
 
 .mt-8 {
 	margin-top: 8em;
+}
+
+.ml-2 {
+	margin: 0 0 0 2em;
 }
