@@ -22,7 +22,6 @@ nav, footer{
 h2 {
 	font-size: 2.2rem;
 	color: #009999;
-	border-bottom: 2px solid #009999;
 	width: fit-content;
 	margin-left: auto;
    margin-right: auto;
@@ -47,6 +46,29 @@ legend {
 	bottom: 1em;
 }
 
+.linha-h2 {
+	width: 10vw;
+	margin: -1em auto 3em auto;
+	border-bottom: 2px solid #009999;
+}
+
+.mt-5 {
+	margin-top: 4em;
+}
+
+.mt-8 {
+	margin-top: 8em;
+}
+
+/* .brand-logo {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: transparent;
+	background-image: url("../img/logos/logo-Twidie.png");
+} */
+
+
 .btn_criar_conta a {
 	background-color: #F3F3F3;
 	color: #009999 !important;
@@ -55,6 +77,10 @@ legend {
 .encontre_seu_talento {
 	padding: 5em 0;
 	background-color: #F3F3F3;
+}
+
+.navbar-material .nav-wrapper .brand-logo img {
+    height: 64px;
 }
 
 .institucional-img {
@@ -92,11 +118,6 @@ legend {
 	padding-right: 3em;
 }
 
-.media h2 {
-	margin-top: 3em;
-	margin-bottom: 3em;
-}
-
 .collapsible-header {
 	font-size: 1.5em;
 	color: #009999;
@@ -108,7 +129,10 @@ legend {
 	color: #868686;
 }
 
-section .input-field {
- 	background-color: #F8F8F8;
+.search-bar {
+	margin: .5em 1em .5em 0;
+	height: 3em;
+	width: 25em;
+	border-radius: 10px;
+	background-color: #ffff;
 }
-
