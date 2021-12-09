@@ -49,15 +49,6 @@ legend {
 	bottom: 1em;
 }
 
-footer div ul li a {
-	color: #ececec;
-}
-
-footer div ul li a:hover {
-	color: #ffff;
-}
-
-
 .linha-h2 {
 	width: 10vw;
 	margin: -1em auto 3em auto;
@@ -70,70 +61,4 @@ footer div ul li a:hover {
 
 .mt-8 {
 	margin-top: 8em;
-}
-
-.btn_criar_conta a {
-	background-color: #F3F3F3;
-	color: #009999 !important;
-}
-
-.btn_criar_conta a:hover {
-	color: #F3F3F3!important;
-	background: linear-gradient(356deg, rgba(29,92,236,1) 0%, rgba(21,145,166,1) 77%, rgba(22,151,158,1) 100%);
-}
-
-.encontre_seu_talento {
-	padding: 5em 0;
-	background-color: #F3F3F3;
-}
-
-.navbar-material .nav-wrapper .brand-logo img {
-    height: 64px;
-}
-
-.institucional-img {
-	padding: 3em 0;
-	background-image: url("../img/img_section/section_institucional__background.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.institucional h2 {
-	color: #FFFDFD;
-	border-bottom: 2px solid #FFFDFD;
-}
-
-.institucional h3 {
-	font-size: 1.5em;
-	font-weight: bolder;
-	padding-bottom: 2em;
-	color: #FFFDFD;
-}
-
-.institucional p {
-	color: #FFFDFD;
-}
-
-.institucional, .encontre_seu_talento p {
-	padding-right: 3em;
-}
-
-.collapsible-header {
-	font-size: 1.5em;
-	color: #009999;
-}
-
-.collapsible-body {
-	font-size: 1.2em;
-	text-indent: 3.5em;
-	color: #868686;
-}
-
-.search-bar {
-	margin: .5em 1em .5em 0;
-	height: 3em;
-	width: 20em;
-	border-radius: 10px;
-	background-color: #ffff;
 }

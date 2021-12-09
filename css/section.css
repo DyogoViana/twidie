@@ -1,0 +1,43 @@
+.encontre_seu_talento {
+	padding: 5em 0;
+	background-color: #F3F3F3;
+}
+
+.institucional-img {
+	padding: 3em 0;
+	background-image: url("../img/img_section/section_institucional__background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.institucional h2 {
+	color: #FFFDFD;
+	border-bottom: 2px solid #FFFDFD;
+}
+
+.institucional h3 {
+	font-size: 1.5em;
+	font-weight: bolder;
+	padding-bottom: 2em;
+	color: #FFFDFD;
+}
+
+.institucional p {
+	color: #FFFDFD;
+}
+
+.institucional, .encontre_seu_talento p {
+	padding-right: 3em;
+}
+
+.collapsible-header {
+	font-size: 1.5em;
+	color: #009999;
+}
+
+.collapsible-body {
+	font-size: 1.2em;
+	text-indent: 3.5em;
+	color: #868686;
+}

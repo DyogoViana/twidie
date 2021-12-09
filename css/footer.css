@@ -1,0 +1,16 @@
+footer div ul li a {
+	color: #ececec;
+}
+
+footer div ul li a:hover {
+	color: #F77825;
+}
+
+.footer-copyright div a {
+	color: #FFFDFD;
+	margin-left: 2em;
+}
+
+.footer-copyright div a:hover {
+	color: #F77825;
+}
