@@ -19,6 +19,10 @@ nav, footer{
 	background: linear-gradient(356deg, rgba(29,92,236,1) 0%, rgba(21,145,166,1) 77%, rgba(22,151,158,1) 100%);
 }
 
+nav li {
+	margin: 0 1em;
+}
+
 h2 {
 	font-size: 2.2rem;
 	color: #009999;
@@ -42,9 +46,17 @@ p {
 legend {
 	color: #6F6F6F;
 	font-weight: bold;
-	position: relative;
 	bottom: 1em;
 }
+
+footer div ul li a {
+	color: #ececec;
+}
+
+footer div ul li a:hover {
+	color: #ffff;
+}
+
 
 .linha-h2 {
 	width: 10vw;
@@ -60,18 +72,14 @@ legend {
 	margin-top: 8em;
 }
 
-/* .brand-logo {
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	color: transparent;
-	background-image: url("../img/logos/logo-Twidie.png");
-} */
-
-
 .btn_criar_conta a {
 	background-color: #F3F3F3;
 	color: #009999 !important;
+}
+
+.btn_criar_conta a:hover {
+	color: #F3F3F3!important;
+	background: linear-gradient(356deg, rgba(29,92,236,1) 0%, rgba(21,145,166,1) 77%, rgba(22,151,158,1) 100%);
 }
 
 .encontre_seu_talento {
@@ -90,13 +98,6 @@ legend {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
-/* .logo_nav {
-	background-image: url("../img/logos/logo-Twidie.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-} */
 
 .institucional h2 {
 	color: #FFFDFD;
@@ -132,7 +133,7 @@ legend {
 .search-bar {
 	margin: .5em 1em .5em 0;
 	height: 3em;
-	width: 25em;
+	width: 20em;
 	border-radius: 10px;
 	background-color: #ffff;
 }
